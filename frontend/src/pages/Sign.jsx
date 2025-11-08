@@ -50,6 +50,7 @@ const Sign = () => {
                   EMAIL ADDRESS
                 </label>
                 <input
+                  type='email'
                   value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
